@@ -97,7 +97,7 @@ public class ElasticsearchEfficientRealtimeBuilderFromKafka {
         String footer = "\n\nFor example: \n\njava -cp ElasticsearchEfficientBuilder-2.0.jar  dingbinthuAt163com.opensource.freedom.es.elasticsearchefficientbuilder.ElasticsearchEfficientRealtimeBuilderFromKafka -groupid myGroup -topic mytopic -cluster \"es-cluster\" -host 192.168.0.110 -port 9300 -index myindex -type mytype -bconcurrent 4 -bcnt 50000 -bsz 30 -interval 6 -kfkthreads 3 -zkconnect 192.168.0.110:2181,192.168.0.110:12181,192.168.0.110:22181 \n\n" ;
         String declarationStr = "************owned by DingBin,dingbinthu@163.com************";
         footer += declarationStr;
-        formatter.printHelp(pw, 130, ElasticsearchEfficientFullBuilderFromMysql.EXE_NAME,null, opts, formatter.getLeftPadding(),formatter.getDescPadding(),footer, true);
+        formatter.printHelp(pw, 130, ElasticsearchEfficientRealtimeBuilderFromKafka.EXE_NAME,null, opts, formatter.getLeftPadding(),formatter.getDescPadding(),footer, true);
         String usage = stringWriter.getBuffer().toString() + "\n\n";
         return usage;
     }
