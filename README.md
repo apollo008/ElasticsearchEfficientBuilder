@@ -6,4 +6,5 @@
 　　本篇实现了java版的builder. 全量建索引的ElasticsearchEfficientFullBuilderFromMysql 和 增量建索引的ElasticsearchEfficientRealtimeBuilderFromKafka，易用高效，亲测可用。相关细节或java api可参考该工程或：https://www.elastic.co/guide/en/elasticsearch/client/java-api/5.4/index.html 。
 
 
-
+![Image text]
+(https://github.com/apollo008/ElasticsearchEfficientBuilder/blob/master/src/main/images/ElasticsearchEfficientFullBuilderFromMysql_help.png)
