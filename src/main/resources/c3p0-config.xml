@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c3p0-config>
+    <!--<default-config>-->
+        <!--&lt;!&ndash;<property name="c3p0.testConnectionOnCheckout">true</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="jdbcUrl">jdbc:mysql://192.168.183.101:3306/mydatabase?useUnicode=true&amp;characterEncoding=UTF-8</property>&ndash;&gt;-->
+        <!--<property name="jdbcUrl">jdbc:mysql://192.168.183.101:3306/mydatabase?useUnicode=true&amp;characterEncoding=UTF-8</property>-->
+        <!--<property name="driverClass">com.mysql.jdbc.Driver</property>-->
+        <!--<property name="user">guest</property>-->
+        <!--&lt;!&ndash;<property name="password">xxxxxx</property>&ndash;&gt;-->
+        <!--<property name="password">xxxxxx</property>-->
+        <!--　　     &lt;!&ndash;当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3 &ndash;&gt;-->
+        <!--<property name="acquireIncrement">3</property>-->
+        <!--　　     &lt;!&ndash; 初始化数据库连接池时连接的数量 &ndash;&gt;-->
+        <!--<property name="initialPoolSize">10</property>-->
+        <!--<property name="maxIdleTime">30</property>-->
+        <!--&lt;!&ndash; 数据库连接池中的最小的数据库连接数 &ndash;&gt;-->
+        <!--<property name="minPoolSize">2</property>-->
+        <!--&lt;!&ndash; 数据库连接池中的最大的数据库连接数 &ndash;&gt;-->
+        <!--<property name="maxPoolSize">10</property>-->
+
+        <!--<property name="idleConnectionTestPeriod">60</property>-->
+    <!--</default-config>-->
+
+    <!--<named-config name="myApp">-->
+        <!--&lt;!&ndash;<property name="c3p0.testConnectionOnCheckout">true</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="jdbcUrl">jdbc:mysql://192.168.183.101:3306/mydatabase?useUnicode=true&amp;characterEncoding=UTF-8</property>&ndash;&gt;-->
+        <!--<property name="jdbcUrl">jdbc:mysql://192.168.183.101:3306/mydatabase?useUnicode=true&amp;characterEncoding=UTF-8</property>-->
+        <!--<property name="driverClass">com.mysql.jdbc.Driver</property>-->
+        <!--<property name="user">guest</property>-->
+        <!--&lt;!&ndash;<property name="password">xxxxxx</property>&ndash;&gt;-->
+        <!--<property name="password">xxxxxx</property>-->
+        <!--　　     &lt;!&ndash;当连接池中的连接耗尽的时候c3p0一次同时获取的连接数。Default: 3 &ndash;&gt;-->
+        <!--<property name="acquireIncrement">3</property>-->
+        <!--　　     &lt;!&ndash; 初始化数据库连接池时连接的数量 &ndash;&gt;-->
+        <!--<property name="initialPoolSize">10</property>-->
+        <!--<property name="maxIdleTime">30</property>-->
+        <!--&lt;!&ndash; 数据库连接池中的最小的数据库连接数 &ndash;&gt;-->
+        <!--<property name="minPoolSize">2</property>-->
+        <!--&lt;!&ndash; 数据库连接池中的最大的数据库连接数 &ndash;&gt;-->
+        <!--<property name="maxPoolSize">10</property>-->
+
+        <!--<property name="idleConnectionTestPeriod">60</property>-->
+    <!--</named-config>-->
+
+</c3p0-config>
