@@ -10,5 +10,5 @@
 ![Image text](https://github.com/apollo008/ElasticsearchEfficientBuilder/blob/master/src/main/images/ElasticsearchEfficientFullBuilderFromMysql_help.png)
 
 
-实时增量建索引工具ElasticsearchEfficientRealtimeBuilderFromKafka用法
+实时增量建索引工具ElasticsearchEfficientRealtimeBuilderFromKafka用法：
 ![Image text](https://github.com/apollo008/ElasticsearchEfficientBuilder/blob/master/src/main/images/ElasticsearchEfficientRealtimeBuilderFromKafka_help.png)
